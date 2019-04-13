@@ -1,0 +1,170 @@
+body {
+  margin: 0 ;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+a{
+  text-decoration: none;
+}
+
+.container{
+  width:1170px;
+  padding:0 15px;
+  margin:0 auto;
+}
+.top-wrapper{
+  background-image:url(https://d1f5hsy4d47upe.cloudfront.net/d3/d3dc1a85e7eee50b5a1a9b5bcf8edfed_t.jpeg);
+  background-size:cover;
+  text-align:center;
+  padding:180px 0 100px 0;
+  color:white;
+}
+.top-wrapper h1{
+  color:rgba(34,49,52,0.7);
+  letter-spacing:15px;
+  opacity:0.7;
+}
+.top-wrapper p{
+  color:rgba(34,49, 52,0.7);
+
+}
+.btn-wrapper{
+  margin-top:40px;
+}
+.signup{
+  background-color:#239b76;
+  }
+  .facebook{
+    background-color:#3b5998;
+    margin-right:10px;
+
+  }
+  .twitter{
+    background-color:#55acee;
+  }
+  .btn{
+    padding:8px 24px;
+    color:white;
+    display:inline-block;
+    border-radius:4px;
+    opacity:0.8;
+
+  }
+  .btn:hover{
+    opacity:1;
+  }
+
+  .intro1{
+    float:left;
+    width:50%;
+
+  }
+
+  .heading{
+    padding-top:60px;
+    padding-bottom:30px;
+    color:#5f5d60;
+  }
+  .heading h2{
+    font-weight:normal;
+
+  }
+  .center-wrapper{
+    height:500px;
+    padding-bottom:80px;
+    background-color:#f7f7f7;
+    text-align:center;
+  }
+  .txt-contents{
+    width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:12px;
+    color:#b3aeb5;
+  }
+  .intro2{
+    float:left;
+    width:50%;
+  }
+  .center-wrapper2{
+    height:600px;
+    padding-bottom:80px;
+    background-color:#f7f7f7;
+    text-align:center;
+  }
+
+  .message-wrapper{
+    border-bottom:1px solid yellow;
+    padding-bottom:80px;
+    text-align:center;
+  }
+  .message{
+    padding:15px 40px;
+    background-color:#5dca88;
+    cursor:pointer;
+    box-shadow:0 7px #1a9740;
+  }
+  .message:active{
+    position:relative;
+    top:7px;
+    box-shadow:none;
+  }
+
+  header{
+    height:65px;
+    background-color:rgba(34,49,52,0.9);
+    width:100%;
+    position:fixed;
+    top:0;
+    z-index:10;
+    color:white;
+  }
+  .header-left{
+    float:left;
+  }
+.header-right{
+  float:right;
+}
+.header-right a{
+  line-height:65px;
+  display:inline-block;
+  padding:0 25px;
+  cursor: pointer;
+  transition:all 0.5s;
+}
+.header-right:hover{
+
+}
+.header-signup{
+  background-color:rgba(255,255,255,0.3);
+  margin-right: 10px;
+}
+.header-signup:hover{
+  background-color:rgba(255,255,255,0.5);
+}
+.header-login{
+  background-color:rgba(255,255,255,0.5)
+}
+.header-login:hover{
+  background-color:rgba(255,255,255.0.5);
+}
+footer{
+
+width:100%;
+  background-color:#f7f7f7;
+  height:110px;
+}
+.footer-left{
+  float:left;
+}
+.footer-left h2{
+  font-weight:normal;
+  font-size:20px;
+}
+.footer-right{
+  float:right;
+
+}
+.footer-right a{
+ color:black;
+ margin-top:30px;
+}
